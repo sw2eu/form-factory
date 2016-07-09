@@ -1,0 +1,17 @@
+{
+	"name": "sw2eu/form-factory",
+	"license": "BSD",
+	"authors": [
+		{
+			"name": "Lukas Povoda",
+			"email": "lupo112@gmail.com"
+		}
+	],
+	"require": {
+		"nette/application": "^2.3",
+		"nette/utils": "~2.3"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	}
+}
