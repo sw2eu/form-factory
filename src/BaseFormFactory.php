@@ -11,7 +11,7 @@ use Nette\Utils\ArrayHash;
  *
  * @package Sw2\Forms
  */
-abstract class FormFactory extends Nette\Object
+abstract class BaseFormFactory
 {
 	/** @var Nette\Localization\ITranslator */
 	protected $translator;
@@ -30,8 +30,6 @@ abstract class FormFactory extends Nette\Object
 	}
 
 	/**
-	 * Method for fill form.
-	 *
 	 * @return Form
 	 */
 	public final function create()
