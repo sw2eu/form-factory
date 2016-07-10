@@ -8,7 +8,7 @@
 		}
 	],
 	"require": {
-		"nette/application": "^2.3",
+		"nette/application": "~2.3",
 		"nette/utils": "~2.3"
 	},
 	"autoload": {
