@@ -2,8 +2,6 @@
 
 namespace Sw2\Forms;
 
-use Nette\Reflection\ClassType;
-
 /**
  * Interface IFormEntity
  *
@@ -11,8 +9,5 @@ use Nette\Reflection\ClassType;
  */
 interface IFormEntity
 {
-
-	/** @return ClassType|\ReflectionClass */
-	public static function getReflection();
 
 }
